@@ -1,4 +1,4 @@
-package chapter02.section02
+package book.chapter02.section02
 
 import org.junit.Test
 

@@ -1,8 +1,6 @@
-package chapter06.section05
+package book.chapter06.section05
 
 import org.junit.Test
-
-import java.time.Period
 
 /**
  * @author Pan Yang
@@ -58,6 +56,9 @@ class T02_MapIterate {
         println(data1)
     }
 
+    /**
+     * 这样写是不行的
+     */
     @Test
     void test5(){
         abc=new Object()

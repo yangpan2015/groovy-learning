@@ -1,4 +1,4 @@
-package chapter02.section01
+package book.chapter02.section01
 
 /**
  * @author Pan Yang

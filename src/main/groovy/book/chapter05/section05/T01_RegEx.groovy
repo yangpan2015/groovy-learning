@@ -1,4 +1,4 @@
-package chapter05.section05
+package book.chapter05.section05
 
 import org.junit.Test
 
@@ -22,7 +22,7 @@ class T01_RegEx {
     }
 
     /**
-     * ~=返回1个matcher对象
+     * =~返回1个matcher对象
      */
     @Test
     void test2() {
@@ -30,5 +30,9 @@ class T01_RegEx {
         if ('abc' =~ ~/^\w{3}$/) {
             println('matched')
         }
+    }
+    @Test
+    void test3(){
+        println ~/^\w.*/
     }
 }
